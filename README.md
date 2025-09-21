@@ -42,3 +42,14 @@ The .csv file was added because .gitignore with the file exceptions was in the m
 # PART II
 
 ## 1. on branch develop create a file food.txt, add some text to it
+
+![Exercise 1 image 1](image-5.png)
+
+## 2. from branch develop create a new branch (with name - test)
+
+- !!!!!!(don't make any changes in food.txt on this step)!!!!!!
+- do 2 commits on it,
+- then switch to develop,
+- do one more commit
+- merge branch test to develop
+- git log
