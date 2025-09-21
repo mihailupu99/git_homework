@@ -79,3 +79,5 @@ The .csv file was added because .gitignore with the file exceptions was in the m
 - do some changes and then commit amend
 - git log
 - what happen with commit history?
+  ![Exercise 4 image 2](image-6.png)
+  The new commit to which we moved has been replaced with the amend, from the latest "lost" standpoint.
