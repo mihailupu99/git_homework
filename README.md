@@ -34,3 +34,7 @@ We see the commits and modifications from the main branch, and not the develop b
 - move to develop
 - Create a new file that you want to ignore, commit.
 - What happen? why?
+
+![Exercise 5 image 1](image-4.png)
+
+The .csv file was added because .gitignore with the file exceptions was in the main branch, not on the develop branch.
