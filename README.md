@@ -90,3 +90,5 @@ The .csv file was added because .gitignore with the file exceptions was in the m
 - now switch to test branch
 - git status
 - what you can see at this moment? why it happen? solve the problem!
+  ![Exercise 5 image 1](image-7.png)
+  We could not move to test branch because we have uncommited changes left on branch develop
