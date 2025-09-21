@@ -62,6 +62,31 @@ The .csv file was added because .gitignore with the file exceptions was in the m
 - do 2 more commits on this branch
 - rebase it with branch test
 - git log
+  ![Exercise 3 image 1](image-5.png)
+  Now the last commits from firstBr are on top of the branch test.
+
 - reset hard last 2 commits
 - git log
 - what happen with commit history?
+  ![Exercise 3 image 2](image-6.png)
+  The last 2 commits got removed and we moved back to where branch test ended
+
+## 4. search the commits that have been reset
+
+- create a new branch (lost) from one of them
+- git log
+  ![Exercise 4 image 1](image-5.png)
+- do some changes and then commit amend
+- git log
+- what happen with commit history?
+  ![Exercise 4 image 2](image-6.png)
+  The new commit to which we moved has been replaced with the amend, from the latest "lost" standpoint.
+
+## 5. checkout on the develop branch,
+
+- add new content in food.txt file, then commit them,
+- add some new content to the same file, (don't make a commit)
+- git status
+- now switch to test branch
+- git status
+- what you can see at this moment? why it happen? solve the problem!
