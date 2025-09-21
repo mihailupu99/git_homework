@@ -40,3 +40,5 @@ We see the commits and modifications from the main branch, and not the develop b
 The .csv file was added because .gitignore with the file exceptions was in the main branch, not on the develop branch.
 
 # PART II
+
+## 1. on branch develop create a file food.txt, add some text to it
