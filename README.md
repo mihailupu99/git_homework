@@ -4,4 +4,6 @@
 
 (DONE)
 
-## 2. Create a new txt file (with name file1.txt) on the main branch and then add some changes (do 2 commits)
+## 2. Create a new txt file (with name file1.txt) on the main branch and then add some changes (do 2 commits).
+
+![Exercise 2 image](image.png)
