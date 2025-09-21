@@ -81,3 +81,12 @@ The .csv file was added because .gitignore with the file exceptions was in the m
 - what happen with commit history?
   ![Exercise 4 image 2](image-6.png)
   The new commit to which we moved has been replaced with the amend, from the latest "lost" standpoint.
+
+## 5. checkout on the develop branch,
+
+- add new content in food.txt file, then commit them,
+- add some new content to the same file, (don't make a commit)
+- git status
+- now switch to test branch
+- git status
+- what you can see at this moment? why it happen? solve the problem!
