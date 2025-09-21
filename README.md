@@ -25,3 +25,12 @@
 - solve the issue and move to main branch
 - run git log, what do you see?
 - run command ls -l, check files content, what difference you see?
+
+![Exercise 4 image 2](image-1.png)
+We see the commits and modifications from the main branch, and not the develop branch
+
+## 5. Create a new file (.gitignore). Add to it the extension of the files what you want to ignore, then commit.
+
+- move to develop
+- Create a new file that you want to ignore, commit.
+- What happen? why?
