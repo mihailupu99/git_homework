@@ -75,6 +75,29 @@ The .csv file was added because .gitignore with the file exceptions was in the m
 
 - create a new branch (lost) from one of them
 - git log
+  ![Exercise 4 image 1](image-5.png)
 - do some changes and then commit amend
 - git log
 - what happen with commit history?
+  ![Exercise 4 image 2](image-6.png)
+  The new commit to which we moved has been replaced with the amend, from the latest "lost" standpoint.
+
+## 5. checkout on the develop branch,
+
+- add new content in food.txt file, then commit them,
+- add some new content to the same file, (don't make a commit)
+- git status
+- now switch to test branch
+- git status
+- what you can see at this moment? why it happen? solve the problem!
+  ![Exercise 5 image 1](image-7.png)
+  We could not move to test branch because we have uncommited changes left on branch develop.
+
+## 6. switch to the branch firstBr
+
+- create a new file (color.txt), do commit
+- add content to this new file, (don't make a commit)
+- switch to master
+- what happen? why?
+  ![Exercise 6 image 1](image-7.png)
+  We also could not move to main branch because of uncommited changes.
