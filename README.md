@@ -53,3 +53,15 @@ The .csv file was added because .gitignore with the file exceptions was in the m
 - do one more commit
 - merge branch test to develop
 - git log
+
+![Exercise 2 image 1](image-6.png)
+
+## 3. checkout on the first commit of the branch master
+
+- create a new branch (firstBr) from this commit
+- do 2 more commits on this branch
+- rebase it with branch test
+- git log
+- reset hard last 2 commits
+- git log
+- what happen with commit history?
