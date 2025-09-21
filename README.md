@@ -70,3 +70,11 @@ The .csv file was added because .gitignore with the file exceptions was in the m
 - what happen with commit history?
   ![Exercise 3 image 2](image-6.png)
   The last 2 commits got removed and we moved back to where branch test ended
+
+## 4. search the commits that have been reset
+
+- create a new branch (lost) from one of them
+- git log
+- do some changes and then commit amend
+- git log
+- what happen with commit history?
