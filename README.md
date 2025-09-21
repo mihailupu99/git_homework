@@ -42,3 +42,40 @@ The .csv file was added because .gitignore with the file exceptions was in the m
 # PART II
 
 ## 1. on branch develop create a file food.txt, add some text to it
+
+![Exercise 1 image 1](image-5.png)
+
+## 2. from branch develop create a new branch (with name - test)
+
+- !!!!!!(don't make any changes in food.txt on this step)!!!!!!
+- do 2 commits on it,
+- then switch to develop,
+- do one more commit
+- merge branch test to develop
+- git log
+
+![Exercise 2 image 1](image-6.png)
+
+## 3. checkout on the first commit of the branch master
+
+- create a new branch (firstBr) from this commit
+- do 2 more commits on this branch
+- rebase it with branch test
+- git log
+  ![Exercise 3 image 1](image-5.png)
+  Now the last commits from firstBr are on top of the branch test.
+
+- reset hard last 2 commits
+- git log
+- what happen with commit history?
+  ![Exercise 3 image 2](image-6.png)
+  The last 2 commits got removed and we moved back to where branch test ended
+
+## 4. search the commits that have been reset
+
+- create a new branch (lost) from one of them
+- git log
+  ![Exercise 4 image 1](image-5.png)
+- do some changes and then commit amend
+- git log
+- what happen with commit history?
